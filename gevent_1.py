@@ -17,6 +17,7 @@ def server():
             continue
         print('Connect from',addr)
         gevent.spawn(handle,c)
+        qweqweqweweq
 
 def handle(c):
     while True:
